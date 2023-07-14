@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icones-header {
+  width: 7vw;
+  height: 3vh;
+  margin-right: 50px;
+}
+
+.logo {
+  width: 6vw;
+  height: 3vh;
+  margin-left: 50px;
+}
+
+figure{
+    width: 100vw;
+}
+
+figure img{
+    width: 100%;
+    height: 40vh;
+}
+
+.texto-banner{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    align-items: center;
+}
+
+.texto-banner h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.texto-banner h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+.card {
+  width: 16vw;
+  height: 42vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 23px;
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+span {
+  color: #5ca720;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 65px 0;
+}
+
+@media (max-width:500px){
+    .logo{
+        width: 20vw;
+    }
+
+    .icones-header {
+        width: 25vw;
+    }
+}
